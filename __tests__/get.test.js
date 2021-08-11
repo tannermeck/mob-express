@@ -14,3 +14,8 @@ it('gets the dirtbike object', async () => {
     expect(response.status).toBe(200);
     expect(response.body).toEqual(data[0]);
 })
+it('get the dirtbike brand', async () => {
+    const response = await request.get('/dirtbikes/brands/kawasaki');
+    expect(response.status).toBe(200);
+    expect(response.body).toEqual(data[0])
+})

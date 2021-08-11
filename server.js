@@ -1,4 +1,4 @@
-console.log('hello world')
+console.log('hello-word')
 const app = require('./app.js');
 const port = process.env.PORT || 5000
 
